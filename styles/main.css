@@ -23,28 +23,51 @@ nav a   {
     display:-ms-flexbox;
     display:flex
     }
+
+.h1 {
+    font-size: 4em;
+}
     
 .main-container {
     background:#eee;
     padding:2em;
-    margin:1em 0    
+    margin:1em 0;
+    display: flex;    
     }
 
+.post {
+    flex-grow: 1;
+}
+
+.sidebar {
+    background-color: white;
+    flex-grow: 1;    
+}
 .mixed-layout   {
     background:white;
     padding:2em;
-    margin:1em 0
+    margin:1em 0;
+    display: flex;
     }
     
+.first {
+    flex-grow: 1;
+}
+
+.second {
+    flex-grow: 1;
+}
 .second-a   {
     background:tomato;
     color:white;
-    padding:2em
+    padding:2em;
+    flex-grow: 1;
     }
     
 .second-b   {
     background:navy;
     color:white;
-    padding:2em
+    padding:2em;
+    flex-grow: 1;
     }
 /*# sourceMappingURL=main.css.map */
