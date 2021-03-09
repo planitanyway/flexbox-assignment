@@ -13,15 +13,16 @@ nav {
   }
 }
 .hero {
-  flex-direction: column;
   background: white;
   padding: 2em;
   margin: 1em 0;
   min-height: 400px;
   justify-content: center;
+  align-items: center;
 }
 .hero-content {
   display: flex;
+  flex-direction: column;
 }
 .main-container {
   background: rgb(238, 238, 238);
